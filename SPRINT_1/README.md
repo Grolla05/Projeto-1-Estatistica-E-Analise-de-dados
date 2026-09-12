@@ -14,9 +14,9 @@ Em ambientes industriais, o nível de automação de uma linha de produção é 
 
 | Variável | Coluna no arquivo | Classificação | Notebook final |
 |---|---|---|---|
-| Nível de Automação | `Nivel_Automacao` | Qualitativa Ordinal (Baixa, Média, Alta) | [`Nivel_Automacao.ipynb`](./Nivel_Automacao.ipynb) |
-| Tempo de Ciclo | `Tempo_Ciclo_s` | Quantitativa Contínua (segundos, valores decimais) — organizada em **classes** | [`Tempo_ciclo.ipynb`](./Tempo_ciclo.ipynb) |
-| Unidades Produzidas | `Unidades_Produzidas` | Quantitativa Discreta (contagem, número inteiro) — organizada em **classes** | [`Unidades_Produzidas.ipynb`](./Unidades_Produzidas.ipynb) |
+| Nível de Automação | `Nivel_Automacao` | Qualitativa Ordinal (Baixa, Média, Alta) | [`Nivel_Automacao.ipynb`](Nivel_Automacao.ipynb) |
+| Tempo de Ciclo | `Tempo_Ciclo_s` | Quantitativa Contínua (segundos, valores decimais) — organizada em **classes** | [`Tempo_ciclo.ipynb`](Tempo_ciclo.ipynb) |
+| Unidades Produzidas | `Unidades_Produzidas` | Quantitativa Discreta (contagem, número inteiro) — organizada em **classes** | [`Unidades_Produzidas.ipynb`](Unidades_Produzidas.ipynb) |
 
 A escolha das duas variáveis quantitativas (`Tempo_Ciclo_s` e `Unidades_Produzidas`) visa investigar, em etapas futuras do Projeto I, uma possível **relação de dependência/correlação** entre elas — é esperado que ciclos mais curtos estejam associados a maior volume de unidades produzidas — tendo o `Nivel_Automacao` como variável categórica de segmentação da análise.
 
@@ -46,18 +46,18 @@ Projeto-1-SPRINT-1/
 - **`Nivel_Automacao.ipynb`** — Lê a base de dados, monta a tabela de distribuição de frequências (absoluta e relativa) da variável `Nivel_Automacao` respeitando a ordem natural da escala (Baixa → Média → Alta), constrói gráfico de colunas e gráfico de setor, calcula a moda e interpreta o resultado.
 - **`Tempo_ciclo.ipynb`** — Lê a base de dados, define os limites de classe para `Tempo_Ciclo_s`, monta a tabela de distribuição de frequências por classes (absoluta, relativa, acumulada e relativa acumulada), constrói o histograma e calcula/interpreta média, mediana, moda e classe modal.
 - **`Unidades_Produzidas.ipynb`** — Lê a base de dados, define os limites de classe para `Unidades_Produzidas`, monta a tabela de distribuição de frequências por classes (absoluta, relativa, acumulada e relativa acumulada), constrói o histograma e calcula/interpreta média, mediana, moda e classe modal.
-- **`requirements.txt`** — Lista as bibliotecas Python necessárias para rodar os notebooks (pandas, numpy, matplotlib, seaborn, openpyxl).
-- **`.gitignore`** — Garante que `.venv/` e os notebooks de referência dentro de `refs/` não sejam versionados no GitHub.
-- **`refs/`** — Pasta de apoio com o material original fornecido pelo professor:
+- **`../requirements.txt`** — Lista as bibliotecas Python necessárias para rodar os notebooks (pandas, numpy, matplotlib, seaborn, openpyxl).
+- **`../.gitignore`** — Garante que `../.venv` e os notebooks de referência dentro de `refs` não sejam versionados no GitHub.
+- **`refs`** — Pasta de apoio com o material original fornecido pelo professor:
   - `1_Tab_varquali.ipynb`, `2_Tab_vardiscreta.ipynb`, `3_Tab_varcontinua_classes.ipynb`, `4_Gráficos_e_medidas.ipynb`: notebooks **modelo**, usados como referência de sintaxe/metodologia durante o desenvolvimento, mas **não fazem parte da entrega** e não sobem para o GitHub.
   - `Eficiencia Operacional em Linhas de Producao.xlsx`: base de dados real do grupo, utilizada pelos notebooks finais na raiz.
   - `README.md`: anotações internas sobre como os templates foram usados de referência.
 
-> ⚠️ **Observação:** os arquivos dentro de `refs/1_*.ipynb` a `refs/4_*.ipynb` usam, originalmente, uma base de exemplo genérica do professor (`dados_projeto1.xlsx`, com colunas como `Escolaridade`, `Idade`, `Sexo`). Eles servem **apenas como referência de metodologia** (como montar tabela de frequência, classes, gráficos e medidas) — a lógica foi adaptada nos notebooks finais da raiz para usar a base real do grupo (`Eficiencia Operacional em Linhas de Producao.xlsx`) e as colunas `Nivel_Automacao`, `Tempo_Ciclo_s` e `Unidades_Produzidas`.
+> ⚠️ **Observação:** os arquivos dentro de `../refs/1_*.ipynb` a `../refs/4_*.ipynb` usam, originalmente, uma base de exemplo genérica do professor (`dados_projeto1.xlsx`, com colunas como `Escolaridade`, `Idade`, `Sexo`). Eles servem **apenas como referência de metodologia** (como montar tabela de frequência, classes, gráficos e medidas) — a lógica foi adaptada nos notebooks finais da raiz para usar a base real do grupo (`Eficiencia Operacional em Linhas de Producao.xlsx`) e as colunas `Nivel_Automacao`, `Tempo_Ciclo_s` e `Unidades_Produzidas`.
 
 ## Base de Dados
 
-**Localização:** [`refs/Eficiencia Operacional em Linhas de Producao.xlsx`](./refs/Eficiencia Operacional em Linhas de Producao.xlsx) — utilizada como fonte de dados pelos três notebooks finais na raiz do projeto.
+**Localização:** [`refs/Eficiencia Operacional em Linhas de Producao.xlsx`](refsficiencia Operacional em Linhas de Producao.xlsx) — utilizada como fonte de dados pelos três notebooks finais na raiz do projeto.
 
 - **Planilha:** `Dados`
 - **Dimensões:** 1.000 linhas × 3 colunas
@@ -71,7 +71,7 @@ Projeto-1-SPRINT-1/
 
 **Distribuição da variável qualitativa (`Nivel_Automacao`):** Média, Alta, Baixa.
 
-> 💡 Como os notebooks finais ficam na **raiz** do projeto e a planilha está dentro de `refs/`, a leitura dos dados deve apontar para o caminho relativo, por exemplo: `pd.read_excel('refs/Eficiencia Operacional em Linhas de Producao.xlsx')`.
+> 💡 Como os notebooks finais ficam na **raiz** do projeto e a planilha está dentro de `refs`, a leitura dos dados deve apontar para o caminho relativo, por exemplo: `pd.read_excel('refs/Eficiencia Operacional em Linhas de Producao.xlsx')`.
 
 ## Tecnologias e Bibliotecas Utilizadas
 
