@@ -109,8 +109,8 @@ O envio dos arquivos é pré-requisito para a correção pela rubrica de avalia�
 
 **Grupo 6** — Escola Politécnica, PUC-Campinas
 
-| Nome                      | RA        |
-|---------------------------|-----------|
-| Eduarda Barbosa Kauffmann | 24004761  |
-| Felipe Grolla Freitas     | 24004846  |
-| Vitória Marques Pires     | 24011312  |
+| Nome                      |
+|---------------------------|
+| Eduarda Barbosa Kauffmann |
+| Felipe Grolla Freitas     |
+| Vitória Marques Pires     |
