@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="270b676c-921b-4e1e-bf53-49e7d67232b9" name="Changes" comment="a" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOT-raZc8AAAABDRaBog&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1789301918669
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOT-raZc8AAAABDVu-UQ&quot;,
+        &quot;number&quot;: 2
+      },
+      &quot;lastSeen&quot;: 1791759158463
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Grolla05/Projeto-1-Estatistica-E-Analise-de-dados.git&quot;,
+    &quot;accountId&quot;: &quot;cd11f3f8-e5b4-4bce-a9ab-0d60d4d927e9&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000003704506" />
+      <entry key="MS500" value="1.012994095287108" />
+      <entry key="S2" value="1.3376264884305897" />
+      <entry key="S5" value="1.6477010849076728" />
+      <entry key="S10" value="1.805046054126767" />
+      <entry key="S30" value="2.0501040539081608" />
+      <entry key="S60" value="2.555495440335762" />
+      <entry key="M2" value="3.3085759043114344" />
+      <entry key="M5" value="4.811259085986469" />
+      <entry key="M10" value="16.386490653559502" />
+      <entry key="M15" value="39.630189975535465" />
+      <entry key="M30" value="137.00643938867282" />
+      <entry key="H1" value="364.16758247150443" />
+      <entry key="H2" value="791.2968830369426" />
+      <entry key="H4" value="1345.8113473035796" />
+      <entry key="D1" value="2300.916999547133" />
+      <entry key="W1" value="2545.1819474134936" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="3.3852424069665506E-196" />
+      <entry key="S10" value="1.9402766019038054E-98" />
+      <entry key="S30" value="3.667925595599771E-33" />
+      <entry key="S60" value="8.983998346700086E-17" />
+      <entry key="M2" value="1.7859038230348847E-8" />
+      <entry key="M5" value="0.0029916033258344066" />
+      <entry key="M10" value="0.23809099494923489" />
+      <entry key="M15" value="1.12492022692576" />
+      <entry key="M30" value="6.347205030668348" />
+      <entry key="H1" value="19.814193284825176" />
+      <entry key="H2" value="43.81073087250399" />
+      <entry key="H4" value="72.51013496498479" />
+      <entry key="D1" value="118.60190188974205" />
+      <entry key="W1" value="129.97360986073832" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659363292777509" />
+      <entry key="MS500" value="1.0059611050818418" />
+      <entry key="S2" value="1.3350770268138152" />
+      <entry key="S5" value="1.6463799496667912" />
+      <entry key="S10" value="1.8043088362164157" />
+      <entry key="S30" value="2.049787539217638" />
+      <entry key="S60" value="2.555233849064144" />
+      <entry key="M2" value="3.3083652600153917" />
+      <entry key="M5" value="4.81404779592769" />
+      <entry key="M10" value="16.6224013562153" />
+      <entry key="M15" value="40.74904574377563" />
+      <entry key="M30" value="143.33849847508532" />
+      <entry key="H1" value="383.9594824498012" />
+      <entry key="H2" value="835.0828505619354" />
+      <entry key="H4" value="1418.3005950397767" />
+      <entry key="D1" value="2419.51307456306" />
+      <entry key="W1" value="2675.1546410610035" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IBUqpKg1xEjUmqbHqlFZp5ahYd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.python -m venv .venv.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Projeto-1-Estatistica-E-Analise-de-dados/SPRINT_3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados\SPRINT_3" />
+      <recent name="D:\GitHub\Projeto-1-SPRINT-1\refs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados\SPRINT_3\assets" />
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados\SPRINT_2" />
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados\SPRINT_2\assets" />
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados" />
+      <recent name="D:\GitHub\Projeto-1-Estatistica-E-Analise-de-dados\SPRINT_1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="python -m venv .venv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Projeto-1-SPRINT-1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="venv" />
+      <option name="PARAMETERS" value=".venv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.python -m venv .venv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="270b676c-921b-4e1e-bf53-49e7d67232b9" name="Changes" comment="" />
+      <created>1787237649090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787237649090</updated>
+      <workItem from="1787237650115" duration="18783000" />
+      <workItem from="1787317234490" duration="5338000" />
+      <workItem from="1789231468062" duration="1870000" />
+      <workItem from="1789301764984" duration="7065000" />
+      <workItem from="1790623277068" duration="11000" />
+      <workItem from="1791280624144" duration="5489000" />
+      <workItem from="1791758885003" duration="645000" />
+      <workItem from="1791759645221" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat">
+      <option name="closed" value="true" />
+      <created>1787258564845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787258564845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs">
+      <option name="closed" value="true" />
+      <created>1787258775185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787258775185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat &amp; Docs">
+      <option name="closed" value="true" />
+      <created>1787323209733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787323209733</updated>
+    </task>
+    <task id="LOCAL-00004" summary="org:&#10;Foi realizado uma reestruturação de pastas para melhor organização do projeto, de maneira na qual se criou subpastas na qual terá uma subpasta para cada sprrint do projeto assim melhorando a organização e documentação">
+      <option name="closed" value="true" />
+      <created>1789232329016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789232329016</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat">
+      <option name="closed" value="true" />
+      <created>1789234077265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789234077265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat">
+      <option name="closed" value="true" />
+      <created>1789308386896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789308386896</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs">
+      <option name="closed" value="true" />
+      <created>1789308457838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789308457838</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs(sprint3): adiciona README completo da Sprint 3&#10;&#10;Documenta a terceira entrega do Projeto I: correlação e regressão&#10;linear, tabulação cruzada, análise de risco (razão de prevalência)&#10;e boxplot comparativo. Inclui contextualização, variáveis do estudo,&#10;estrutura da pasta, principais resultados, instruções de execução,&#10;itens de entrega e equipe.&#10;&#10;Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;&#10;Claude-Session: https://claude.ai/code/session_01GviYjYeqgnSBi1WqS2XvML">
+      <option name="closed" value="true" />
+      <created>1791288815801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791288815801</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix(sprint3): ajusta Tabulacao_Cruzada.ipynb conforme a rubrica&#10;&#10;Corrige o caminho de leitura da planilha, exibe a tabela de&#10;prevalência da análise de risco, calcula os outliers por código em&#10;vez de valores fixos e reorganiza a interpretação do boxplot.&#10;&#10;Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;&#10;Claude-Session: https://claude.ai/code/session_01GviYjYeqgnSBi1WqS2XvML">
+      <option name="closed" value="true" />
+      <created>1791288832734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1791288832734</updated>
+    </task>
+    <task id="LOCAL-00010" summary="a">
+      <option name="closed" value="true" />
+      <created>1791288952894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1791288952894</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feat &amp; Docs" />
+    <MESSAGE value="org:&#10;Foi realizado uma reestruturação de pastas para melhor organização do projeto, de maneira na qual se criou subpastas na qual terá uma subpasta para cada sprrint do projeto assim melhorando a organização e documentação" />
+    <MESSAGE value="feat" />
+    <MESSAGE value="docs" />
+    <MESSAGE value="docs(sprint3): adiciona README completo da Sprint 3&#10;&#10;Documenta a terceira entrega do Projeto I: correlação e regressão&#10;linear, tabulação cruzada, análise de risco (razão de prevalência)&#10;e boxplot comparativo. Inclui contextualização, variáveis do estudo,&#10;estrutura da pasta, principais resultados, instruções de execução,&#10;itens de entrega e equipe.&#10;&#10;Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;&#10;Claude-Session: https://claude.ai/code/session_01GviYjYeqgnSBi1WqS2XvML" />
+    <MESSAGE value="fix(sprint3): ajusta Tabulacao_Cruzada.ipynb conforme a rubrica&#10;&#10;Corrige o caminho de leitura da planilha, exibe a tabela de&#10;prevalência da análise de risco, calcula os outliers por código em&#10;vez de valores fixos e reorganiza a interpretação do boxplot.&#10;&#10;Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;&#10;Claude-Session: https://claude.ai/code/session_01GviYjYeqgnSBi1WqS2XvML" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projeto_1_SPRINT_1$python__m_venv__venv.coverage" NAME="python -m venv .venv Coverage Results" MODIFIED="1787323008827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
