@@ -8,6 +8,14 @@ Estudo estatístico sobre a eficiência operacional de linhas de produção indu
 |---|---|---|
 | **Sprint 1** | Estatística descritiva: tabelas de frequência, gráficos e medidas de tendência central (média, moda, mediana) das três variáveis | [`SPRINT_1/`](SPRINT_1) |
 | **Sprint 2** | Medidas de dispersão e posição: quartis, percentis, boxplot e identificação de outliers das variáveis quantitativas | [`SPRINT_2/`](SPRINT_2) |
+| **Sprint 3** | Relação entre variáveis: correlação e regressão linear (`Tempo_Ciclo_s` × `Unidades_Produzidas`), tabulação cruzada, análise de risco (razão de prevalência) e boxplot comparativo por nível de automação. Compõe a **Entrega Final do Projeto I** | [`SPRINT_3/`](SPRINT_3) |
+
+### Destaques da Sprint 3
+
+- **Correlação de Pearson:** r = −0,777 (negativa e forte); reta ŷ = 1212,19 − 13,41·x; R² = 0,6037 — o tempo de ciclo explica cerca de 60% da variação da produção.
+- **Tabulação cruzada:** `Unidades_Produzidas` categorizada pela mediana (601) e cruzada com `Nivel_Automacao`. Alta produção: 29,9% (Baixa), 50,5% (Média) e 61,3% (Alta automação).
+- **Análise de risco:** razão de prevalência ≈ 1,81 — linhas de baixa automação têm prevalência de baixa produção cerca de 81% maior que as de alta automação (associação, não causalidade).
+- **Boxplot comparativo:** a produção típica cresce com a automação, mas as distribuições se sobrepõem parcialmente.
 
 Cada pasta de sprint tem seu próprio README com o detalhamento da entrega, dos notebooks e de como executá-los.
 
@@ -38,6 +46,13 @@ Projeto-1-Estatistica-E-Analise-de-dados/
 │   ├── Tempo_Ciclo_Sprint2.ipynb
 │   ├── Unidades_Produzidas_Sprint2.ipynb
 │   └── README.md
+├── SPRINT_3/
+│   ├── assets/                       # Notebook-modelo do professor (referência)
+│   ├── Correlacao_Regrssao.ipynb
+│   ├── Tabulacao_Cruzada.ipynb
+│   ├── Eficiencia Operacional em Linhas de Producao categorizado.xlsx
+│   ├── boxplot_comparativo.png
+│   └── README.md
 ├── refs/
 │   └── Eficiencia Operacional em Linhas de Producao.xlsx   # Base de dados do projeto
 ├── .gitignore
@@ -51,8 +66,8 @@ Projeto-1-Estatistica-E-Analise-de-dados/
 
 - **pandas** — leitura da planilha (`.xlsx`) e manipulação dos dados
 - **math** — apoio a cálculos estatísticos (Sprint 1)
-- **numpy** / **scipy** — apoio a cálculos numéricos e medidas de dispersão (Sprint 2)
-- **seaborn** — gráficos de contagem, histogramas e boxplots
+- **numpy** / **scipy** — apoio a cálculos numéricos e medidas de dispersão (Sprint 2); `scipy.stats.linregress` para correlação e regressão linear (Sprint 3)
+- **seaborn** — gráficos de contagem, histogramas e boxplots (inclui boxplot comparativo na Sprint 3)
 - **matplotlib.pyplot** — construção e formatação de gráficos
 - **openpyxl** — leitura de arquivos `.xlsx` via `pandas`
 
